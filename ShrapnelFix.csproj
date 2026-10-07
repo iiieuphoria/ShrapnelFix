@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>ShrapnelFix</AssemblyName>
+    <RootNamespace>ShrapnelFix</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.0</Version>
+    <!-- Your SPT 4.1.6 install. Override with: dotnet build -p:SptRoot="D:\path\to\SPT" -->
+    <SptRoot Condition="'$(SptRoot)' == ''">E:\Games\Escape From Tarkov - 4.1.6</SptRoot>
+    <Managed>$(SptRoot)\EscapeFromTarkov_Data\Managed</Managed>
+  </PropertyGroup>
+
+  <ItemDefinitionGroup>
+    <Reference>
+      <Private>False</Private>
+    </Reference>
+  </ItemDefinitionGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp" HintPath="$(Managed)\Assembly-CSharp.dll" />
+    <Reference Include="ItemComponent.Types" HintPath="$(Managed)\ItemComponent.Types.dll" />
+    <Reference Include="Comfort" HintPath="$(Managed)\Comfort.dll" />
+    <Reference Include="UnityEngine" HintPath="$(Managed)\UnityEngine.dll" />
+    <Reference Include="UnityEngine.CoreModule" HintPath="$(Managed)\UnityEngine.CoreModule.dll" />
+    <Reference Include="UnityEngine.PhysicsModule" HintPath="$(Managed)\UnityEngine.PhysicsModule.dll" />
+    <Reference Include="BepInEx" HintPath="$(SptRoot)\BepInEx\core\BepInEx.dll" />
+    <Reference Include="0Harmony" HintPath="$(SptRoot)\BepInEx\core\0Harmony.dll" />
+    <Reference Include="spt-reflection" HintPath="$(SptRoot)\BepInEx\plugins\spt\spt-reflection.dll" />
+  </ItemGroup>
+
+</Project>

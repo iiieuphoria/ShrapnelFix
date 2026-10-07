@@ -1,0 +1,10 @@
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.csproj.AssemblyReference.cache
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.AssemblyInfoInputs.cache
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.AssemblyInfo.cs
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.csproj.CoreCompileInputs.cache
+D:\_Projects\SPT Mods\ShrapnelFix\bin\Release\netstandard2.1\ShrapnelFix.deps.json
+D:\_Projects\SPT Mods\ShrapnelFix\bin\Release\netstandard2.1\ShrapnelFix.dll
+D:\_Projects\SPT Mods\ShrapnelFix\bin\Release\netstandard2.1\ShrapnelFix.pdb
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.dll
+D:\_Projects\SPT Mods\ShrapnelFix\obj\Release\netstandard2.1\ShrapnelFix.pdb
